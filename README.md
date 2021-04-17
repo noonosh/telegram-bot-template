@@ -6,7 +6,7 @@
 $ pip install python-telegram-bot
 ```
 
-2. Then insert API_TOKEN of your bot ⚓
+2. Then insert **{API_TOKEN}** of your bot in the *configs.py* file ⚓
 
 
-3. Run run.py 🚀
+3. Run *run.py* 🚀
