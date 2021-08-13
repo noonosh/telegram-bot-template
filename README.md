@@ -14,6 +14,6 @@ $ pip install python-telegram-bot
 $ python3 run.py
 # On mac devices
 
-Users > your-computer >:/ python run.py
+Users > your-computer >:/ py run.py
 # On Windows (but I am not quite sure)
 ```
