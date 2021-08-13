@@ -1,4 +1,4 @@
-# Telegram bot template
+# Telegram bot template <i>(it's trash, don't use, or contribute)</i>
 #### Start learning now. Download this template and run your first Telegram-Bot
 
 1. First install the package ⬇️
