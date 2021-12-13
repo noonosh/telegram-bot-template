@@ -20,10 +20,14 @@ $ pip install -r requirements.txt
 
 3.  Add an environment variable for bot's token. You can get one [here with BotFather](https://t.me/botfather).
 
-    -   **Deprecated version**
-        `bash $ export BOT_TOKEN='your actual token'`
-    -   **Recommended**
-        Create a file with name `.env` and enter type in your bot token as:
+    -   **❗️ Deprecated version**
+
+        ```bash
+        $ export BOT_TOKEN='your actual token'
+        ```
+
+    -   **👍 Recommended**
+        Create a file with name `.env` (no name, just .env) and type in your bot's token as:
 
         `1. BOT_TOKEN='your actual token'`
 
