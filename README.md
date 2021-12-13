@@ -1,19 +1,43 @@
-# Telegram bot template <i>(it's trash, don't use, or contribute)</i>
-#### Start learning now. Download this template and run your first Telegram-Bot
+# Telegram Bot Template
 
-1. First install the package ⬇️
+## About
+
+This is a template repo for cloning and reusing to create custom telegram bots with [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) library in Python.
+
+## Installation
+
+1. Clone the repo
+
+```bash
+$ git clone https://github.com/nuriddinislamov/telegram-bot-template my-bot
 ```
-$ pip install python-telegram-bot
+
+2. Download and install all dependencies with `pip`
+
+```bash
+$ pip install -r requirements.txt
 ```
 
-2. Then insert **{API_TOKEN}** of your bot in the *configs.py* file ⚓
+3.  Add an environment variable for bot's token. You can get one [here with BotFather](https://t.me/botfather).
 
+    -   **Deprecated version**
+        `bash $ export BOT_TOKEN='your actual token' `
+    -   **Recommended**
+        Create a file with name `.env` and enter type in your bot token as:
+        `1. BOT_TOKEN='your actual token'`
 
-3. Run the Python file *run.py* 🚀
+    <br/>
+
+4.  🎉 Great! Now run the bot and see the magic happen.
+
+```bash
+$ python3 bot.py
 ```
-$ python3 run.py
-# On mac devices
 
-Users > your-computer >:/ py run.py
-# On Windows (but I am not quite sure)
-```
+## Licence
+
+This template is under [MIT](/LICENSE) license.
+
+## Copyright
+
+&copy; Nuriddin Islamov, 2021
