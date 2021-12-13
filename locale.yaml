@@ -5,4 +5,4 @@
 name: ''
 language_support: true
 texts:
-    start: "😃 Hooray! You have successfully set up your bot!\n\nStart editing <p>main.py</p> file"
+    start: "😃 Hooray! You have successfully set up your bot!\n\nStart editing <code>main.py</code> file"
