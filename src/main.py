@@ -8,7 +8,7 @@ from src.components import start
 
 
 dotenv.load_dotenv()
-DEBUG = os.environ.get('DEBUG', False) == 'True'
+DEBUG = os.environ.get('DEBUG', False) == True
 
 
 logging.basicConfig(
