@@ -8,6 +8,9 @@ venv/
 # Python cache
 __pycache__/
 
+# Pytest cache
+.pytest_cache/
+
 # Byte-compiled / optimized / DLL files
 *.py[cod]
 *$py.class
