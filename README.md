@@ -1,4 +1,4 @@
-# 📑 Telegram Bot Template
+# 📑 Telegram Bot Template (TBT)
 
 This is a template repo for cloning and reusing to create custom telegram bots with [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) library in Python.
 
