@@ -1,11 +1,23 @@
-import yaml
+import json
+
+j = json.load(open("app.json", "r", encoding="utf-8"))['app_data']
 
 
 def text(key: str):
+    """b Function that gets the text for the bot from text.json
+    Args:
+        key (str): [key for the json to find the right piece of text]
+    Returns:
+        [str]: [Text from text.json]
     """
-    Reads texts from locale.yaml file. Return the string of the given key.
+    return j["texts"][key]
+
+
+def button(key: str):
+    """b Function that gets the text of a button in the bot from text.json
+    Args:
+        key (str): [key for the json to find the right piece of text]
+    Returns:
+        [str]: [Text from text.json]
     """
-    
-    text_file = open('locale.yaml')
-    contents = yaml.load(text_file, Loader=yaml.FullLoader)
-    return contents['texts'][key]
+    return j["buttons"][key]

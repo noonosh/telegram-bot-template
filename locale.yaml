@@ -1,8 +1,0 @@
----
-# This document is subject to copyright
-# Created and distributed to public by Nuriddin Islamov, December 2021
-
-name: ''
-language_support: true
-texts:
-    start: "😃 Hooray! You have successfully set up your bot!\n\nStart editing <code>main.py</code> file"

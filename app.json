@@ -1,0 +1,17 @@
+{
+	"meta": {
+		"version": "1.0.0",
+		"description": "",
+		"url": "",
+		"author": "Nuriddin Islamov",
+		"date_of_release": "1 January 1970"
+	},
+	"app_data": {
+		"texts": {
+			"start": "😃 Hooray! You have successfully set up your bot!\n\nStart editing <code>main.py</code> file"
+		},
+		"buttons": {
+			"ok": "OK!"
+		}
+	}
+}
