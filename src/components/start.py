@@ -1,9 +1,9 @@
 from telegram import Update
-from telegram.ext import CallbackContext
+from telegram.ext import ContextTypes
 from utils.text import text
 
 
-def start(update: Update, context: CallbackContext):
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # This callback function just replies back with a greeting message from app.json texts
-    update.effective_message.reply_text(text('start'),
-                                        parse_mode='HTML')
+    await update.effective_message.reply_text(text('start'),
+                                              parse_mode='HTML')

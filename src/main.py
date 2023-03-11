@@ -1,9 +1,7 @@
 import os
 import dotenv
 import logging
-from telegram.ext import (Updater,
-                          CommandHandler,
-                          ConversationHandler)
+from telegram.ext import Application, CommandHandler, ConversationHandler
 from src.components import start
 
 
@@ -24,8 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    updater = Updater(os.environ['BOT_TOKEN'])
-    dispatcher = updater.dispatcher
+    application = Application.builder().token(os.environ.get('BOT_TOKEN')).build()
 
     main_conversation = ConversationHandler(
         entry_points=[
@@ -35,7 +32,6 @@ def main():
         fallbacks=[]
     )
 
-    dispatcher.add_handler(main_conversation)
+    application.add_handler(main_conversation)
 
-    updater.start_polling()
-    updater.idle()
+    application.run_polling()
